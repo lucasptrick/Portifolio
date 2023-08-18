@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: hsl(0, 2%, 90%);
 }
 
 /* Cabeçalho */
@@ -19,14 +19,15 @@ section {
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Imagem */
 img {
     max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+    border-radius: 6px;
+    width: "130";
+    height: "130";
 }
 
 /* Projetos */
@@ -53,7 +54,7 @@ footer a {
 }
 footer p {
     font-size: 10pt;
-}    
+}
 
 /* Responsividade */
 @media (max-width: 768px) {
